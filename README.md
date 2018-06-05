@@ -28,7 +28,7 @@ let handcash = new hc({network: "testnet"});
 ### Get receive address for $handle
 
 ```js
-handcash.recieve('rjseibane').then((res) => {
+handcash.receive('rjseibane').then((res) => {
   console.log(res);
   // { receivingAddress: 'mxszqDyaNGFcmTkPjJ2BGRpSTChdVWaNPZ',
   // publicKey:
@@ -45,8 +45,8 @@ let hc = require('handcash');
 // instantiate
 let handcash = new hc({network: "testnet"});
 
-// get recieve address for $handle
-handcash.recieve('rjseibane').then((res) => {
+// get receive address for $handle
+handcash.receive('rjseibane').then((res) => {
   console.log(res);
   // { receivingAddress: 'mxszqDyaNGFcmTkPjJ2BGRpSTChdVWaNPZ',
   // publicKey:
