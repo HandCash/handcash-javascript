@@ -12,7 +12,7 @@ module.exports = class handcash {
      }
    }
 
-   recieve(handle) {
+   receive(handle) {
      return axios.get(`${this.baseURL}${handle }`)
     .then((response) => {
       return response.data;
