@@ -4,6 +4,13 @@ Helper methods for [HandCash's API](http://handcash.io/api-docs/).
 
 ## Usage
 
+### Installation
+
+```js
+npm install handcash
+```
+
+
 ### Require the lib
 
 ```js
