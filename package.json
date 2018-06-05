@@ -1,0 +1,20 @@
+{
+  "name": "handcash",
+  "version": "0.0.1",
+  "description": "Helper methods for HandCash's API",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --require babel-core/register"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "underscore": "^1.9.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-core": "^6.26.3",
+    "chai": "^4.1.2",
+    "nyc": "^11.6.0",
+    "sinon": "^4.5.0"
+  }
+}
