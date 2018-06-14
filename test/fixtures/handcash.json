@@ -1,11 +1,20 @@
 {
   "handcash": {
-    "receive": [
-      {
-        "handle": "rjseibane",
-        "receivingAddress": "mxszqDyaNGFcmTkPjJ2BGRpSTChdVWaNPZ",
-        "publicKey": "03d193439a2f06ed1121be5b4e61381386ffee5ec5bec33daf17e33ccb34622753"
-      }
-    ]
+    "receive": {
+      "testnet": [
+        {
+          "handle": "rjseibane",
+          "receivingAddress": "mxszqDyaNGFcmTkPjJ2BGRpSTChdVWaNPZ",
+          "publicKey": "03d193439a2f06ed1121be5b4e61381386ffee5ec5bec33daf17e33ccb34622753"
+        }
+      ],
+      "mainnet": [
+        {
+          "handle": "rjseibane",
+          "receivingAddress": "1FGJPxsq2gXwEBvDKK7ZNiP8aW5hDhEc6b",
+          "publicKey": "03e2a517ca640dca4f198f043d109812d5e2e7e302a073e09a105d344e85fdb180"
+        }
+      ]
+    }
   }
 }
