@@ -5,10 +5,10 @@ module.exports = class handcash {
    constructor(config) {
      if(config && config.network === 'mainnet') {
        this.network = config.network;
-       this.baseURL = 'http://api.handcash.io/api/receivingAddress/';
+       this.baseURL = 'https://api.handcash.io/api/receivingAddress/';
      } else {
        this.network = 'testnet';
-       this.baseURL = 'http://test-api.handcash.io/api/receivingAddress/';
+       this.baseURL = 'https://test-api.handcash.io/api/receivingAddress/';
      }
    }
 
