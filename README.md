@@ -19,7 +19,7 @@ let hc = require('handcash');
 
 ### Instantiate w/ network passed in via config
 
-Config options for `network` are `testnet` and `mainnet`. Currently only `testnet` supported.
+Config options for `network` are `testnet` and `mainnet`.
 
 ```js
 let handcash = new hc({network: "testnet"});
