@@ -30,9 +30,11 @@ let handcash = new hc({network: "testnet"});
 ```js
 handcash.receive('rjseibane').then((res) => {
   console.log(res);
-  // { receivingAddress: 'mxszqDyaNGFcmTkPjJ2BGRpSTChdVWaNPZ',
-  // publicKey:
-  //  '03d193439a2f06ed1121be5b4e61381386ffee5ec5bec33daf17e33ccb34622753' }
+  // { 
+  //   receivingAddress: 'mxszqDyaNGFcmTkPjJ2BGRpSTChdVWaNPZ',
+  //	 cashAddr: 'bitcoincash:qz20388lm0397xazll966yxjveje2z79gyf26ssugk',
+  //   publicKey: '03d193439a2f06ed1121be5b4e61381386ffee5ec5bec33daf17e33ccb34622753' 
+  // }
 });
 ```
 
@@ -48,8 +50,10 @@ let handcash = new hc({network: "testnet"});
 // get receive address for $handle
 handcash.receive('rjseibane').then((res) => {
   console.log(res);
-  // { receivingAddress: 'mxszqDyaNGFcmTkPjJ2BGRpSTChdVWaNPZ',
-  // publicKey:
-  //  '03d193439a2f06ed1121be5b4e61381386ffee5ec5bec33daf17e33ccb34622753' }
+  // { 
+  //   receivingAddress: 'mxszqDyaNGFcmTkPjJ2BGRpSTChdVWaNPZ',
+  //	 cashAddr: 'bitcoincash:qz20388lm0397xazll966yxjveje2z79gyf26ssugk',
+  //   publicKey: '03d193439a2f06ed1121be5b4e61381386ffee5ec5bec33daf17e33ccb34622753' 
+  // }
 });
 ```
